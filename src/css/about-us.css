@@ -1,1 +1,68 @@
+/* БАЗОВІ СТИЛІ СЕКЦІЇ */
+.about-section {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+}
 
+.about-title {
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.about-box {
+    gap: 20px;
+}
+
+.about-first-text {
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.about-second-text {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.about-picture, .about-image {
+    padding: 0;
+}
+
+/* ТЕЛЕФОН */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 0 20px;
+    gap: 40px;
+    align-items: center; 
+    text-align: center;
+}
+
+.about-box {
+    gap: 20px;
+}
+
+.about-title {
+    font-size: 28px;
+}
+
+.about-first-text {
+    font-size: 18px;
+}
+
+.about-second-text {
+    font-size: 12px;
+    line-height: 117%;
+}
+
+/* ПЛАНШЕТ */
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .ab
+}
