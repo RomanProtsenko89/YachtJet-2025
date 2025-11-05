@@ -30,18 +30,23 @@
 }
 
 .about-picture, .about-image {
+    border-radius: 24px;
     padding: 0;
 }
 
 /* ТЕЛЕФОН */
 
-.about-section {
+.about-container {
     display: flex;
     flex-direction: column;
-    padding: 40px 20px 0 20px;
-    gap: 40px;
     align-items: center; 
     text-align: center;
+}
+
+.about-section {
+    padding: 40px 20px 0 20px;    
+    gap: 40px;
+    max-width: 335px;    
 }
 
 .about-box {
@@ -64,5 +69,40 @@
 /* ПЛАНШЕТ */
 
 @media (min-width: 768px) and (max-width: 1279px) {
-    .ab
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+    }
+
+    .about-section {
+        padding: 50px 0 0 32px;
+        max-width: 704px;
+    }
+
+    .about-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+
+    .about-title {
+        text-align: left;
+        font-size: 48px;
+    }
+
+    .about-first-text {
+        font-size: 23px;
+    }
+
+    .about-second-text {
+        font-size: 13px;
+        line-height: 115%;
+    }    
+}
+
+/* ДЕСКТОП */
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    
 }
